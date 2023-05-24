@@ -3,8 +3,8 @@ import "package:flutter_assignment/services/fetching.dart";
 import 'package:flutter_assignment/services/calculation.dart';
 
 class Data with ChangeNotifier {
-  String firstCurrencie = "USD";
-  String secondCurrencie = "USD";
+  String firstCurrencie = "choose currency";
+  String secondCurrencie = "choose currency";
   bool choosing = true;
   double exchangeValue = 1.0;
   double calcuatedPrice = 1.0;
